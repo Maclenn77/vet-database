@@ -3,6 +3,17 @@
 > This template should be used for database related projects at Microverse.
 > Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
 
+`mkdir -p $HOME/docker/volumes/pg_db_perf_audit`
+
+`docker run --name pg_db_perf_audit -e POSTGRES_PASSWORD=postgres -d -p 54321:5432 -v $HOME/docker/volumes/pg_db_perf_audit:/var/lib/postgresql/data postgres`
+
+`docker cp [PATH/SQL_FILES] pg_db_perf_audit:/tmp`
+
+`psql -Upostgres` -Go inside database
+
+`psql -Upostgres -fqueries.sql ` run files
+
+
 
 ## Getting Started
 
