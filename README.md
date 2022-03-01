@@ -84,6 +84,14 @@ Index were created for improving performance.
 - Twitter: [@SrJuanPapas](https://twitter.com/SrJuanPapas)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/juanpaulopereztejada)
 
+👤 **Angela Cuahutle Navarro**
+
+- GitHub: [@angelacuahutle](https://github.com/angelacuahutle)
+- Twitter: [@AngelaCunaDev](https://twitter.com/AngelaCun aDev)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/angelacuahutle)
+
+
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
