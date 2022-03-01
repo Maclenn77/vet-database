@@ -27,7 +27,7 @@ Create an user and volumes for the audit
 
 Copy files to recreate the database (replace PATH/SQL_FILES with your path )
 
-`docker cp [PATH/SQL_FILES] pg_db_perf_audit:/tmp`
+`docker cp\ [PATH/SQL_FILES] pg_db_perf_audit:/tmp`
 
 Start docker:
 
@@ -48,11 +48,11 @@ Go into database with `psql -Upostgres`
 
 Three queries were tested, showing the following results.
 
-`EXPLAIN ANALYZE SELECT COUNT(*) FROM visits where animal_id = 4;`
+`EXPLAIN ANALYZE SELECT * FROM visits where vet_id = 2;`
 
 ![](./screenshots_exercises/query01.png)
 
-`EXPLAIN ANALYZE SELECT * FROM visits where vet_id = 2;`
+`EXPLAIN ANALYZE SELECT COUNT(*) FROM visits where animal_id = 4;`
 
 ![](./screenshots_exercises/query02.png)
 
