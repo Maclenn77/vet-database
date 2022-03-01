@@ -27,7 +27,7 @@ Create an user and volumes for the audit
 
 Copy files to recreate the database (replace PATH/SQL_FILES with your path )
 
-`docker cp\ [PATH/SQL_FILES] pg_db_perf_audit:/tmp`
+`docker cp [PATH/SQL_FILES] pg_db_perf_audit:/tmp`
 
 Start docker:
 
@@ -56,7 +56,7 @@ Three queries were tested, showing the following results.
 
 ![](./screenshots_exercises/query02.png)
 
-`EXPLAIN ANALYZE SSELECT * FROM owners where email = 'owner_18327@mail.com';`
+`EXPLAIN ANALYZE SELECT * FROM owners where email = 'owner_18327@mail.com';`
 
 ![](./screenshots_exercises/query03.png)
 
